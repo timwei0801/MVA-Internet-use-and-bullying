@@ -1,0 +1,19 @@
+# 忽略整個 data 目錄
+/data/
+
+# 忽略特定類型的數據文件
+*.csv
+*.xlsx
+*.db
+*.sql
+
+# 忽略可能包含敏感信息的配置文件
+config.ini
+credentials.json
+
+# 忽略系統文件
+.DS_Store
+.env
+
+# 忽略日誌文件
+*.log
